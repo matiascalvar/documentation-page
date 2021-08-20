@@ -1,0 +1,45 @@
+body {
+    background-color: cornsilk;
+}
+
+#navbar {
+    position: fixed;
+    font-size: 20px;
+    width: 330px;
+    padding: 5px;
+}
+#main-doc {
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    margin-left: 350px;
+    padding: 10px;
+    border-left: black 1px solid;
+}
+header {
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+}
+#navbar li,a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 20px;
+}
+section li {
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    #navbar{
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+    #main-doc{
+        position: relative;
+        width: 100%;
+        margin-left: auto;
+    }
+}
